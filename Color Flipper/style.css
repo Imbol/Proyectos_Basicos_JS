@@ -141,6 +141,23 @@ main{
 }
 .color{
     color: var(--clr-primary-5);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+lebel, p{
+    margin: 20px;        
+}
+
+#pallete{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    overflow: hidden;
 }
 .btn-hero{
     font-family: var(--clr-primary-5);
@@ -182,3 +199,4 @@ main{
         line-height: 1;
     }
 }
+

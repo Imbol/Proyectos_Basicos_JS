@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'lato';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(Biblio.jpg) no-repeat center center/cover;
+}
+
+.centrado{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor{
+    width: 80vw;
+    max-width: 500px;
+    min-height: 400px;
+    padding: 15px;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 30px;
+    opacity: 0.9;
+    
+}
+
+.contenedor-inter{
+    width: 80%;
+}
+
+#titulo{
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+}
+
+#cita{
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#autor{
+    font-size: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: 'Courgette', cursive;    
+}
+
+#boton-cita{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}

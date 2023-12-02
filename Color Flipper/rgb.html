@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Color Flipper</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="icon" type="image/png" href="Color.png">
+    </head>
+
+    <body>
+        <nav>
+            <div class="nav-center">
+            <h4>color flipper</h4>
+            <ul class="nav-links">
+                <li><a href="index.html">simple</a></li>
+                <li><a href="hex.html">hex</a></li>
+                <li><a href="rgb.html">rgb</a></li>
+                <li><a href="pallette.html">pallette</a></li>
+            </ul>
+            </div>
+        </nav>
+        <main>
+            <div class="container">
+                <h2>
+                    <div class="color">
+                        <label for="red">Red</label>
+                        <input id="red" type="range" min="0" max="255" value="241" step="1">
+                        <p id="text-red"></p>
+                    </div>
+                    <div class="color">
+                        <label for="green">Green</label>
+                        <input id="green" type="range" min="0" max="255" value="245" step="1">
+                        <p id="text-green"></p>
+                    </div>
+                    <div class="color">
+                        <label for="blue">Blue</label>
+                        <input id="blue" type="range" min="0" max="255" value="248" step="1">
+                        <p id="text-blue"></p>
+                </h2>
+                </div>
+            </div>
+        </main>
+        
+        <script src="rgb.js"></script>
+    </body>
+</html>
